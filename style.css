@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+.app-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s;
+}
+.app-card:hover {
+    transform: scale(1.05);
+}
+.app-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.app-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
